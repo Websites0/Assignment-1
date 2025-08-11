@@ -6,3 +6,16 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+
+
+
+/* universal */
+
+
+
+/* nav styles */
+
+.nav-bar{
+    display: flex;
+}
