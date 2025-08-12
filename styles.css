@@ -1,5 +1,4 @@
-/* font inter */
-
+/* inter font */
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -7,15 +6,164 @@
     font-style: normal;
 }
 
+/* raleway font */
 
-
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
 /* universal */
+
+.primary-btn {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+}
 
 
 
 /* nav styles */
 
-.nav-bar{
+.nav-title {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+
+/* header styles */
+
+header {
+    background-image: url(Assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+}
+
+.header-contain {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.header-contain-title {
+    font-weight: bold;
+    font-size: 65px;
+    display: block;
+
+}
+
+
+/* main styles */
+
+
+
+
+
+/* action styles */
+
+.action {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* dev mode e ekta dekai figma te dosomik dekhay tai figma er ta mepe dichi */
+    padding: 62px 141px;
+    gap: 180px;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.action-subtitle {
+    font-size: 24px;
+    color: #252432;
+
+}
+
+.action-image img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* product styles */
+
+
+.product-section {
+    background-color: #4E47FF1A;
+    padding: 50px 150px;
+    border-radius: 25px;
+    margin: 100px 150px;
+}
+
+.product-content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.product-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.product-item {
+    width: 150px;
+}
+
+.product-number {
+    font-weight: bold;
+    font-size: 80px;
+    color: #4D47FF;
+}
+
+.product-sub {
+    font-size: 15px;
+    color: #746c6c;
+}
+
+
+/* user styles */
+
+.user-section {
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.user-box {
+    display: flex;
+    justify-content: space-between;
 }
